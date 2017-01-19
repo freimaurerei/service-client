@@ -1,0 +1,38 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "name": "name",
+    "id": 1,
+    "street": "street",
+    "undefined": 5,
+    "nullable": null,
+    "related": {
+      "name": "relatedName1",
+      "id": 1
+    },
+    "manyRelatedModels": [
+      {
+        "id": 2,
+        "name": "relatedName2"
+      },
+      {
+        "name": "relatedName3",
+        "id": 3
+      }
+    ],
+    "unknownModel": [
+      {
+        "unknownField": 1
+      }
+    ],
+    "collection": {
+      "collection1": [
+        {
+          "id": 1,
+          "name": "relatedName1"
+        }
+      ]
+    }
+  },
+  "id": 1
+}

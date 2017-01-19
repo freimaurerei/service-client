@@ -1,0 +1,39 @@
+{
+    "name": "freimaurerei/service-client",
+    "description": "Базовый клиент для JSON-RPC служб",
+    "license": "MIT",
+    "keywords": ["json-rpc"],
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Sergey Mikhaylov"
+        },
+        {
+            "name": "Denis Radchenko",
+            "email": "denis@doomer.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Freimaurerei\\ServiceClient\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Freimaurerei\\ServiceClient\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii2": "^2.0",
+        "jan-swiecki/simple-annotations": "~0.2",
+        "guzzle/guzzle": "~3.8",
+        "graze/guzzle-jsonrpc": "~0.4.3",
+        "psr/log": "^1.0",
+        "freimaurerei/service-model": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*",
+        "monolog/monolog": "*"
+    }
+}
